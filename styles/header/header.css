@@ -1,0 +1,66 @@
+/*HEADER*/
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header .nav-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-content .logo-container h1{
+    font-size: 20px;
+}
+.nav-items{
+    display: flex;
+    gap: 40px;
+}
+.nav-items a{
+    font-size: 12px;
+    color: black;
+}
+
+
+/*IMAGES CONTAINER*/
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+    width: 100%;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+.image-container img{
+    width: 315px;
+    object-fit: cover;
+}
+
+.overlay-letter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: white;
+}
+.side-image{
+    height: 474px;
+    justify-content: center;
+}
+.central-image{
+    height: 661px;
+}

@@ -1,0 +1,47 @@
+/*ABOUT ME CONINER*/
+.tittle{
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.about_me{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+}
+.about-info{
+    display: flex;
+    gap: 100px;
+    margin: 100px auto;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 500px;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+.about-text h1{
+    font-size: 24px;
+}
+.about_img img{
+    height: 630px;
+}
+.button-container{
+    border: 2px solid;
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.button-container a{
+    color: black;
+}
+.button-container:hover, .button-container a:hover{
+    color: rgb(85, 85, 85);
+}
