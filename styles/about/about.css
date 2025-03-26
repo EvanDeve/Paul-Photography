@@ -1,21 +1,21 @@
 /*ABOUT ME CONINER*/
+.about_me{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
 .tittle{
     font-size: 36px;
     text-align: center;
     position: relative;
-    display: inline-block;
-}
-.about_me{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: auto;
-    height: 100vh;
 }
 .about-info{
     display: flex;
     gap: 100px;
-    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
 .about-text{
     display: flex;
@@ -25,23 +25,27 @@
     justify-content: center;
     gap: 20px;
     position: relative;
+    text-align: justify;
 }
 .about-text h1{
     font-size: 24px;
 }
-.about_img img{
+.about_me img{
     height: 630px;
 }
-.button-container{
-    border: 2px solid;
-    width: 70px;
-    padding: 10px;
-    border-radius: 10px;
+.about_button-container{
+    width: 10px;
     background-color: white;
+    text-align: center;
+    justify-content: center;
 }
-.button-container a{
+.about_button-container a{
     color: black;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
 }
-.button-container:hover, .button-container a:hover{
+.about_button-container a:hover{
     color: rgb(85, 85, 85);
 }

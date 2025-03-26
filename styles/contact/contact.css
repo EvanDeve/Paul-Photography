@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 .contact-container{
     padding: 20px;
@@ -60,7 +59,17 @@ input[type="tel"] {
 .radio-group label{
     font-size: 11px;
 }
-.contact .button-container{
+.contact_button-container{
+    margin:auto;
     margin-top: 20px;
-    width: 60px;
+}
+.contact_button-container a{
+    color: black;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contact_button-container a:hover{
+    color: rgb(85, 85, 85);
 }

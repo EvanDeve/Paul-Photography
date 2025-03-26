@@ -1,12 +1,10 @@
 /*PORTAFOLIO CONTAINER*/
 .portafolio{
     text-align: center;
-    padding: 50px 20px;
+    padding: 0 20px;
     background-color: #fff;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 500px;
 }
 .portafolio-img{
     display: grid;
@@ -14,7 +12,7 @@
     grid-template-rows: auto;
     gap: 10px;
     max-width: 900px;
-    margin: 20px auto;
+    margin: 50px auto;
     grid-template-areas:
     "img1 img2 img4"
     "img1 img3 img4"
@@ -41,7 +39,16 @@
     display: block;
     transition: transform 0.3s ease-in-out;
 }
-.portafolio .button-container{
+.portafolio_button-container{
     margin: auto;
-    margin-top: 20px;
+}
+.portafolio_button-container a{
+    color: black;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.portafolio_button-container a:hover{
+    color: rgb(85, 85, 85);
 }

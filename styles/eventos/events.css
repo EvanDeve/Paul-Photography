@@ -3,10 +3,9 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 100vh;
 }
 .events-container{
-    margin: auto;
+    margin: 50px auto;
     display: flex;
     gap: 30px;
 }
@@ -18,7 +17,16 @@
     width: 351px;
     height: 530px;
 }
-.events .button-container{
-    margin: auto;
-    margin-top: 20px;
+.events_button-container{
+    margin: 20px auto;
+}
+.events_button-container a{
+    color: black;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.events_button-container a:hover{
+    color: rgb(85, 85, 85);
 }

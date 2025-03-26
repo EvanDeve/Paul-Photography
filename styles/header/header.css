@@ -1,5 +1,5 @@
 /*HEADER*/
-header{
+header {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,8 @@ header{
     align-items: center;
     position: relative;
 }
-header .nav-content{
+
+header .nav-content {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -17,14 +18,17 @@ header .nav-content{
     left: 0;
     width: 100%;
 }
-.nav-content .logo-container h1{
+
+.nav-content .logo-container h1 {
     font-size: 20px;
 }
-.nav-items{
+
+.nav-items {
     display: flex;
     gap: 40px;
 }
-.nav-items a{
+
+.nav-items a {
     font-size: 12px;
     color: black;
 }
@@ -40,11 +44,12 @@ header .nav-content{
     width: 100%;
 }
 
-.image-container{
+.image-container {
     position: relative;
     display: inline-block;
 }
-.image-container img{
+
+.image-container img {
     width: 315px;
     object-fit: cover;
 }
@@ -57,10 +62,12 @@ header .nav-content{
     font-size: 90px;
     color: white;
 }
-.side-image{
+
+.side-image {
     height: 474px;
     justify-content: center;
 }
-.central-image{
+
+.central-image {
     height: 661px;
 }
