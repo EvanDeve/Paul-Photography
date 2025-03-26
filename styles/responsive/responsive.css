@@ -34,6 +34,9 @@
     }
 }
 @media (max-width: 481px) {
+    header .nav-content{
+        justify-content: space-between;
+    }
     .images-container {
         gap: 8px;
     }
@@ -48,6 +51,15 @@
     }
     .overlay-letter {
         font-size: 40px;
+    }
+    .nav-container{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .social_media-container{
+        display: none;
     }
     .about_img img{
         height: 200px;

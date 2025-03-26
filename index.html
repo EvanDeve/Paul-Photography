@@ -13,38 +13,56 @@
     <link rel="stylesheet" href="styles/contact/contact.css">
     <link rel="stylesheet" href="styles/responsive/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 
 <body>
     <header>
         <div class="nav-content">
+
             <div class="logo-container">
                 <h1>LOGO</h1>
             </div>
+
             <div class="nav-container">
                 <nav>
                     <ul class="nav-items">
-                        <a href="#">
-                            <li>INICIO</li>
-                        </a>
-                        <a href="#">
-                            <li>SOBRE MI</li>
-                        </a>
-                        <a href="#">
-                            <li>PORTAFOLIO</li>
-                        </a>
-                        <a href="#">
-                            <li>EVENTOS</li>
-                        </a>
-                        <a href="#">
-                            <li>CONTACTO</li>
-                        </a>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">SOBRE MI</a></li>
+                        <li><a href="#">PORTAFOLIO</a></li>
+                        <li><a href="#">EVENTOS</a></li>
+                        <li><a href="#">CONTACTO</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="social_media-container">
-                <i class="bi bi-instagram"></i>
+
+            <div class="ham-container">
+                <div class="social_media-container">
+                    <i class="bi bi-instagram"></i>
+                </div>
+    
+                <label for="menu-toggle" class="menu-icon">
+                    <i class="bi bi-list"></i>
+                </label>
+    
+                <input type="checkbox" id="menu-toggle">
+                
+                <div class="modal-menu">
+                    <div class="menu-content">
+                        <label for="menu-toggle" class="close-menu">✖</label>
+                        <ul>
+                            <li><a href="#">INICIO</a></li>
+                            <li><a href="#">SOBRE MI</a></li>
+                            <li><a href="#">PORTAFOLIO</a></li>
+                            <li><a href="#">EVENTOS</a></li>
+                            <li><a href="#">CONTACTO</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            
+
+            
         </div>
 
         <div class="images">

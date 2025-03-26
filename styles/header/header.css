@@ -21,6 +21,7 @@ header .nav-content {
 
 .nav-content .logo-container h1 {
     font-size: 20px;
+    margin-left: 20px;
 }
 
 .nav-items {
@@ -33,8 +34,74 @@ header .nav-content {
     color: black;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    margin: auto;
+    margin-right: 20px;
+}
+.modal-menu {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1000000;
+}
+
+.menu-content {
+    background: white;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.menu-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-content ul li {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.menu-content a {
+    text-decoration: none;
+    color: #333;
+}
+
+.close-menu {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Mostrar modal cuando el checkbox está activado */
+#menu-toggle:checked + .modal-menu {
+    opacity: 1;
+    visibility: visible;
+}
 
 /*IMAGES CONTAINER*/
+.image {
+    margin: auto;
+}
+
 .images-container {
     display: flex;
     justify-content: center;
